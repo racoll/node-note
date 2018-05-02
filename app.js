@@ -8,7 +8,7 @@ const _ = require("lodash");
 console.log(_.isString(true));
 console.log(_.isString("Robin"));
 
-var filteredArray = _.uniq(["rob", 1, "rob", 1, 2, 3, 4]);
+var filteredArray = _.uniq(["Jon"]);
 console.log(filteredArray);
 // var res = notes.addNote();
 // console.log(res);
